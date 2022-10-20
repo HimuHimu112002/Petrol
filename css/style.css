@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ========================================
+            top menu end
+============================================= */
+.top__menu i, h6, .top__icon i{
+    color: white;
+}
+.bb{
+    border-bottom: 3px solid #FFB800;
+    padding: 7px 0px;
+}
+.top__menu h6{
+   margin-left: 30px;
+}
+.top__icon i{
+    margin-right: 15px;
+}
+/* ========================================
+            top menu end
+============================================= */
+/* ========================================
+             menu start
+============================================= */
+.navbar{
+    background-color: #F40404;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(230, 224, 224);
+}
+.banner_btn, .hero_btn, .service__btn, .comapny__btn, .card__btn{
+    color: white !important;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px 30px;
+    border: 1px solid white;
+    margin-left: 70px;
+}
+.banner_btn:focus, .hero_btn:focus, .comapny__btn:focus, .card__btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+/* ========================================
+             menu end
+============================================= */
+/* ========================================
+             banner start
+============================================= */
+
+.banner_img{
+    background-image: url("../img/Slider.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 300px;
+    display: flex;
+    align-items: center;
+}
+.banner_content h1{
+    color: white;
+    width: 842px; 
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 200px;
+}
+.hero_btn, .service__btn{
+    margin-left: 200px;
+    border: none;
+    background-color: #F40404;
+    transition: .4s all ease-in-out;
+}
+.hero_btn:hover, .service__btn:hover{
+    transform: translateX(6px);
+}
+/* ========================================
+             banner end
+============================================= */
+
+/* ========================================
+             biggest start
+============================================= */
+.biggest_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+}
+.biggest_content h1{
+    width: 290px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: end;
+}
+.biggest_content p{
+    font-size: 16px;
+    color: black;
+}
+/* ========================================
+             biggest end
+============================================= */
+/* =========================================
+              4 image start 
+============================================== */
+.imgbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.item_img{
+    width: 24%;
+}
+/* =========================================
+              4 image end 
+============================================== */
+/* =========================================
+              service start 
+============================================== */
+.service__content{
+    margin-left: 150px;
+}
+.service__content h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.service__content p{
+    font-size: 16px;
+}
+.service__img, .service__img2, .service__img3{
+    background-image: url("../img/Services1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__img2{
+    background-image: url("../img/Services2.png");
+}
+.service__img3{
+    background-image: url("../img/Services3.png");
+}
+.service__img__content h3{
+    color: white;
+    font-size: 36px;
+}
+.service__btn{
+    margin: 0;
+}
+/* =========================================
+              service end 
+============================================== */
+/* =========================================
+              company start 
+============================================== */
+.company__section{
+    background-color: #C4C4C4;
+    padding: 136px 0px;
+}
+.company__img{
+    background-image: url("../img/company.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.comapy__content{
+    background-color: #F40404;
+    padding: 53px 0px;
+    display: flex;
+    justify-content: center;
+}
+.comapy__content h1{
+    width: 262px;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+.comapny__btn{
+    background-color: white;
+    border: none;
+    color: black !important;
+}
+/* =========================================
+              company end 
+==============================================  */
+/* =========================================
+              card end 
+============================================== */
+.card__section{
+    background-color: #C4C4C4;
+    padding: 110px 0px;
+}
+.card__img, .card--img1, .card--img2{
+    background-image: url("../img/Group\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 0px;
+}
+.card--img1{
+    background-image: url("../img/Group\ 2.png");
+}
+.card--img2{
+    background-image: url("../img/Group\ 3.png");
+}
+.card__img h5, .card--img1 h5, .card--img2 h5{
+    width: 250px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: auto;
+    color: white;
+}
+.card__btn{
+    margin: 0;
+    margin-left: 50px;
+    background-color: #C4C4C4;
+    border: none;
+    margin-top: 15px;
+}
+/* =========================================
+              card end 
+============================================== */
+/* =========================================
+              join start 
+============================================== */
+.join__section{
+    background-color: #F40404;
+    border-bottom: 3px solid #FFB800;
+}
+.join{
+    margin: 0;
+    padding: 0;
+}
+.join__left p{
+    padding: 15px 0px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+.join__right{
+    margin-top: 25px;
+}
+/* =========================================
+              join end 
+============================================== */
+footer{
+    padding: 120px 0px;
+    background-color: #1F1F1F;
+}
+footer img{
+    padding-bottom: 15px;
+}
+.fcontent__1 ul{
+    margin: 0;
+    padding: 0;
+}
+.fcontent__1 ul li{
+    list-style-type: none;
+    color: white;
+    padding: 7px 0px;
+}
+.f__icon{
+    width: 200px;
+    display: flex;
+}
+.ficon__1{
+    width: 30px;
+    height: 30px;
+    background-color: #F40404;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ficon__1 i{
+    color: white;
+}
+.fcontent__2 h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.fcontent__2 ul{
+    margin: 0;
+    padding: 0;
+}
+.fcontent__2 ul li{
+    list-style-type: none;
+    padding: 7px 0px;
+    transition: .4s all ease-in-out;
+}
+.fcontent__2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fcontent__2 ul li:hover{
+    transform: translateX(5px);
+}
+.f__img img{
+    margin-right: 10px;
+}
